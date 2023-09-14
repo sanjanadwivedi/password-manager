@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre&family=Great+Vibes&family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgba(43, 226, 195, 0.096);
+}
+
+nav {
+    background-color: rgb(125, 211, 204);
+    padding: 12px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    margin: 0 23px;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+
+ul li:hover {
+    color: white;
+}
+
+table, td, tr {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+h1, h2, h3 {
+    margin: 23px;
+}
+
+.btn {
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 900;
+    border: 2px solid grey;
+    border-radius: 8px;
+    margin: 25px 0px;
+    cursor: pointer;
+
+}
+
+.btnsm {
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    font-weight: 600;
+    border: 2px solid grey;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(73, 124, 119);
+}
+
+img {
+    cursor: pointer;
+    position: relative;
+    bottom: 7px;
+    width: 15px;
+    height: 13px;
+}
+
+.alert {
+    display: none;
+}
